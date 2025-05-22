@@ -1,5 +1,107 @@
-body{background:black;}
-.main{ width:400px;
-margin: 0 auto;}
-img{width:100%;}
-h1{color:white;}
+body{background:rgb(240, 228, 228);}
+
+
+.main{ background-color:rgb(240, 228, 228) ;
+max-width: 500px;
+margin: 0 auto;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 10px 30px grey;
+border: 3px solid black;
+
+}
+
+    img{width:100%;
+    border-radius: 20px;}
+
+
+    h1{color:rgb(255, 255, 255);
+border-radius: 20px;
+   background-color: black;
+   font-family:Homoarakhn Regular ;
+   padding: 20px 0;
+   text-align: center;
+   font-size: 2vw;
+   text-align: center;
+   color: white;
+   padding:3%;}
+
+   h3{color:black;}
+
+.result{
+    color:rgb(0, 0, 0);
+}
+
+.clear {
+    background-color: #000000; /* Button background color */
+    color: white;              /* Text color */
+    font-size: 15px;           /* Font size */
+    padding: 8px 25px;        /* Padding inside the button */
+    border: none;              /* Remove default border */
+    border-radius: 5px;        /* Rounded corners */
+    cursor: pointer;          /* Change cursor to pointer */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 20px;
+    
+}
+
+.clear:hover {
+    background-color: #000000; /* Darker background on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+}
+
+.clear:active {
+    background-color: #000000; /* Even darker on click */
+    transform: translateY(2px); /* Slightly pressed effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow when clicked */
+}
+
+.clear:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Custom focus outline */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*button 2*/
+
+.equals {
+    background-color: #000000; /* Button background color */
+    color: white;              /* Text color */
+    font-size: 15px;           /* Font size */
+    padding: 8px 25px;        /* Padding inside the button */
+    border: none;              /* Remove default border */
+    border-radius: 5px;        /* Rounded corners */
+    cursor: pointer;          /* Change cursor to pointer */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 20px;
+    
+}
+
+.equals:hover {
+    background-color: #000000; /* Darker background on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+}
+
+.equals:active {
+    background-color: #000000; /* Even darker on click */
+    transform: translateY(2px); /* Slightly pressed effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow when clicked */
+}
+
+.equals:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Custom focus outline */
+}
